@@ -8,7 +8,7 @@ The tools and scripts provided in this repository are made available for educati
 
 ## Prerequisites
 
-- **Operating System**: Tested on Windows, version 10 22H2.
+- **Operating System**: Tested on Windows 10 x64, version 22H2.
 - **Python Version**: Python 3.6+
 - **User Permissions**: Administrative privileges are required to execute the script due to the nature of its operations, which involve process and memory manipulation.
 - **Metasploit Framework**: `msfvenom` is used for generating the shellcode.
