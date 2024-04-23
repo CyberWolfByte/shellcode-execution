@@ -131,7 +131,7 @@ process_info = PROCESS_INFORMATION()
 # Create a new process in suspended state without a window
 is_created = kernel32.CreateProcessA(
     None,  # Application name
-    b"C:\\Windows\\System32\\notepad.exe",  # Command line
+    b"C:\\Windows\\System32\\notepad.exe",  # Example target process
     None,  # Process security attributes
     None,  # Thread security attributes
     False,  # Inherit handles
